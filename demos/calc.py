@@ -1,14 +1,25 @@
-x = input("Enter a number: ")
-y = input("Enter second number: ")
+# Read two numbers from the user.
+# input() always returns a string, so we convert them to integers.
+x = int(input("Enter a number: "))
+y = int(input("Enter second number: "))
 
-sum = int(x) + int(y)
+# Addition: adds the two numbers together
+sum = x + y
 print("Addition =", sum)
 
-diff = int(x) - int(y)
-print("Difference =", diff)
+# Difference: subtracts the second number from the first
+difference = x - y
+print("Difference =", difference)
 
-product = int(x) * int(y)
+# Product: multiplies the two numbers
+product = x * y
 print("Product =", product)
 
-division = int(x) / int(y)
-print("Division =", division)
+# Division: divides the first number by the second
+# We check for zero to avoid an error in Python
+if y != 0:
+    division = x / y
+    print("Division =", division)
+else:
+    print("Division = undefined (cannot divide by zero)")
+
