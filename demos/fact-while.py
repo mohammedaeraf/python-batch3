@@ -1,5 +1,4 @@
-# Factorial Program
-
+# Factorial Program using while loop
 n = int(input("Enter a number: "))
 fact = 1
 

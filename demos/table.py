@@ -1,4 +1,4 @@
-# Multiplication Table
+# Multiplication Table using while loop
 n = int(input("Enter a number: "))
 i = 1
 while i <= 10:
