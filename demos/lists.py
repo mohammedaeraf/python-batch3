@@ -6,5 +6,7 @@ students[3] = "Donald"
 students.append("Kumar")
 students.insert(1, "Usman")
 students.insert(1, "Mohammed")
+students.remove("Ramesh")
+students.pop(5)
 print(students)
 print("No of students =>", len(students))
