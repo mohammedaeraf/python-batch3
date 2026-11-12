@@ -12,3 +12,4 @@ def print_table(n):
 
 print_table(13)
 print_table(25)
+
