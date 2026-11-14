@@ -9,7 +9,6 @@ def print_table(n):
         i = i + 1
     print()
 
-
 print_table(13)
 print_table(25)
 
