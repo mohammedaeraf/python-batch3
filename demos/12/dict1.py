@@ -3,14 +3,11 @@ student = {
     "age":18,
     "course":"Python",
     "marks":78.5,
-    "active":True,
 }
 
 print(student["name"])
 print(student.get("name"))
-
 student["age"] = 21
-
 student["email"] = "usman@gmail.com"
 print(student)
 
