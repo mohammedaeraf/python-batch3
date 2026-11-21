@@ -1,6 +1,5 @@
 #Part 1 - Factorial
 num = input("Enter a number: ")
-
 try:
     n = int(num)
     fact = 1
@@ -9,7 +8,6 @@ try:
     print("Factorial of",n,"=",fact)
 except:
     print("Invalid input")
-
 
 # Part 2 - Addition
 x = 10
