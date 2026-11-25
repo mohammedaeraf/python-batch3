@@ -13,4 +13,6 @@ student1 = Student("Ali",19)
 student2 = Student("Fatima",18)
 
 student1.display()
+student2.display()
+
 

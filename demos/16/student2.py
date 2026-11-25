@@ -1,5 +1,4 @@
 class Student:
-
     def __init__(self, name, marks):
         self.name = name
         self.marks = marks
@@ -13,7 +12,6 @@ class Student:
             print("Result: Pass")
         else:
             print("Result: Fail")
-
 
 student1 = Student("Ali",19)
 student1.display()
