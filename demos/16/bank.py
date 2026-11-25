@@ -11,7 +11,7 @@ class BankAccount:
         self.balance = self.balance + amount
 
     def withdraw(self, amount):
-        # TODO: add a check to see if the balance is sufficient
+        # to do: add a check to see if the balance is sufficient
         print("Withdrawing Rs.",amount,"from your account")
         self.balance = self.balance - amount
 
