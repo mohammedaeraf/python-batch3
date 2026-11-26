@@ -1,10 +1,12 @@
 class BankAccount:
 
-    def __init__(self, account_number, holder, balance):
+    def __init__(self, account_number, holder, balance, customer_id, ifsc_code):
 
         self.account_number = account_number
         self.holder = holder
         self.balance = balance
+        self.customer_id = customer_id
+        self.ifsc_code = ifsc_code
 
     def deposit(self, amount):
         print("Depositing Rs.",amount,"in your account")
